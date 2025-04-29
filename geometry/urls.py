@@ -7,4 +7,3 @@ urlpatterns = [
     path('triangle/area/', TriangleAreaView.as_view(), name='triangle-area'),
     path('shape/area/', ShapeAreaView.as_view(), name='shape-area'),
 ]
-
